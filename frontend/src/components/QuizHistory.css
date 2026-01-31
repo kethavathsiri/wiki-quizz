@@ -1,0 +1,168 @@
+.history-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.empty-state h2 {
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.empty-state p {
+  color: #999;
+  font-size: 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #667eea;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.quizzes-table h2 {
+  color: #667eea;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background: #f9f9f9;
+}
+
+table th {
+  padding: 1rem;
+  text-align: left;
+  color: #667eea;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+table td {
+  padding: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+  color: #555;
+}
+
+table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.title-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.url-link {
+  color: #667eea;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  word-break: break-word;
+}
+
+.url-link:hover {
+  text-decoration: underline;
+  color: #764ba2;
+}
+
+.date {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.cache-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.cache-badge.cached {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.cache-badge.fresh {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-details,
+.btn-delete {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-details {
+  background: #667eea;
+  color: white;
+}
+
+.btn-details:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
+
+.btn-delete {
+  background: #ffcdd2;
+  color: #c62828;
+}
+
+.btn-delete:hover {
+  background: #ef5350;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .history-container {
+    padding: 1rem;
+  }
+
+  .table-wrapper {
+    font-size: 0.9rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .btn-details,
+  .btn-delete {
+    width: 100%;
+  }
+}

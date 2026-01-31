@@ -1,0 +1,95 @@
+{
+  "id": 2,
+  "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+  "title": "Python (programming language)",
+  "summary": "Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected, supporting multiple programming paradigms including structured, object-oriented, and functional programming.",
+  "key_entities": {
+    "people": ["Guido van Rossum", "Barry Warsaw", "Brett Cannon", "Raymond Hettinger"],
+    "organizations": ["Dropbox", "Google", "Facebook", "Netflix", "Instagram"],
+    "locations": ["Netherlands", "California", "United States"]
+  },
+  "sections": [
+    "History",
+    "Features and Philosophy",
+    "Syntax and Semantics",
+    "Libraries and Frameworks",
+    "Implementations",
+    "Development",
+    "Use in Academia",
+    "Adoption",
+    "Reception"
+  ],
+  "quiz": [
+    {
+      "question": "Who is the creator of Python?",
+      "options": [
+        "Linus Torvalds",
+        "Guido van Rossum",
+        "Dennis Ritchie",
+        "Bjarne Stroustrup"
+      ],
+      "answer": "Guido van Rossum",
+      "difficulty": "easy",
+      "explanation": "Guido van Rossum created Python in 1989 and was its lead developer until stepping down in 2018."
+    },
+    {
+      "question": "In what year was Python first released?",
+      "options": [
+        "1989",
+        "1991",
+        "1995",
+        "2000"
+      ],
+      "answer": "1991",
+      "difficulty": "easy",
+      "explanation": "Python was first released on February 20, 1991, as version 0.9.0."
+    },
+    {
+      "question": "What does Python's name derive from?",
+      "options": [
+        "The snake species",
+        "A mathematical concept",
+        "The British comedy series 'Monty Python'",
+        "An ancient Greek god"
+      ],
+      "answer": "The British comedy series 'Monty Python'",
+      "difficulty": "medium",
+      "explanation": "Guido van Rossum named Python after the British comedy series 'Monty Python's Flying Circus'."
+    },
+    {
+      "question": "Which programming paradigm is NOT supported by Python?",
+      "options": [
+        "Object-oriented programming",
+        "Functional programming",
+        "Procedural programming",
+        "Strict static typing"
+      ],
+      "answer": "Strict static typing",
+      "difficulty": "hard",
+      "explanation": "Python is dynamically typed, not strictly statically typed. However, Python supports object-oriented, functional, and procedural paradigms."
+    },
+    {
+      "question": "What is Python's philosophy concerning code readability?",
+      "options": [
+        "Speed is more important than readability",
+        "Use as many features as possible",
+        "Code readability is paramount",
+        "Minimize code length at all costs"
+      ],
+      "answer": "Code readability is paramount",
+      "difficulty": "medium",
+      "explanation": "Python's design philosophy emphasizes code readability and uses significant indentation to enforce readable code structure."
+    }
+  ],
+  "related_topics": [
+    "List of Programming Languages",
+    "Django",
+    "NumPy",
+    "Pandas (software)",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Software Testing"
+  ],
+  "created_at": "2026-01-31T11:00:00",
+  "is_cached": false
+}

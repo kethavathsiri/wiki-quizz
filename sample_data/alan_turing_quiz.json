@@ -1,0 +1,107 @@
+{
+  "id": 1,
+  "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+  "title": "Alan Turing",
+  "summary": "Alan Mathison Turing was an English mathematician and computer scientist who was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine.",
+  "key_entities": {
+    "people": ["Alan Turing", "Alonzo Church", "David Hilbert", "Kurt Gödel", "John von Neumann"],
+    "organizations": ["University of Cambridge", "Bletchley Park", "University of Manchester", "National Physical Laboratory"],
+    "locations": ["United Kingdom", "England", "Manchester", "Princeton"]
+  },
+  "sections": [
+    "Early life",
+    "Mathematical logic",
+    "World War II",
+    "Manchester years",
+    "Persecution for homosexuality",
+    "Death",
+    "Legacy",
+    "Turing machines",
+    "Church–Turing thesis"
+  ],
+  "quiz": [
+    {
+      "question": "In what year was Alan Turing born?",
+      "options": [
+        "1910",
+        "1912",
+        "1915",
+        "1918"
+      ],
+      "answer": "1912",
+      "difficulty": "easy",
+      "explanation": "Alan Mathison Turing was born on June 23, 1912, in London, England."
+    },
+    {
+      "question": "What machine concept did Turing introduce that became fundamental to computer science?",
+      "options": [
+        "Enigma Machine",
+        "Turing Machine",
+        "Babbage Machine",
+        "Difference Engine"
+      ],
+      "answer": "Turing Machine",
+      "difficulty": "medium",
+      "explanation": "Turing machines are theoretical computing machines that helped formalize the concept of computation and became foundational to theoretical computer science."
+    },
+    {
+      "question": "What was Alan Turing's primary role during World War II?",
+      "options": [
+        "Developing radar technology",
+        "Breaking the Enigma code",
+        "Building fighter aircraft",
+        "Managing supply lines"
+      ],
+      "answer": "Breaking the Enigma code",
+      "difficulty": "medium",
+      "explanation": "Turing worked at Bletchley Park and was instrumental in breaking the Nazi Enigma machine codebreaker, which greatly aided the Allied war effort."
+    },
+    {
+      "question": "What is the 'Church–Turing thesis' related to?",
+      "options": [
+        "Biological evolution",
+        "The equivalence of different models of computation",
+        "Religious philosophy",
+        "Quantum mechanics"
+      ],
+      "answer": "The equivalence of different models of computation",
+      "difficulty": "hard",
+      "explanation": "The Church–Turing thesis proposes that any function that can be computed can be computed by a Turing machine, showing the equivalence of different computational models."
+    },
+    {
+      "question": "What test did Turing propose to measure machine intelligence?",
+      "options": [
+        "Boolean Test",
+        "Logic Test",
+        "Imitation Game (Turing Test)",
+        "Computation Test"
+      ],
+      "answer": "Imitation Game (Turing Test)",
+      "difficulty": "medium",
+      "explanation": "The Turing Test, proposed in his 1950 paper, suggests that a machine is intelligent if an evaluator cannot distinguish it from a human through conversation."
+    },
+    {
+      "question": "At which university did Turing study mathematics?",
+      "options": [
+        "Oxford University",
+        "Cambridge University",
+        "University of Manchester",
+        "Princeton University"
+      ],
+      "answer": "Cambridge University",
+      "difficulty": "easy",
+      "explanation": "Turing studied mathematics at King's College, Cambridge, and later was a fellow there."
+    }
+  ],
+  "related_topics": [
+    "Turing Machine",
+    "Church–Turing Thesis",
+    "Enigma Machine",
+    "Bletchley Park",
+    "Artificial Intelligence",
+    "Computable Number",
+    "Theory of Computation"
+  ],
+  "created_at": "2026-01-31T10:00:00",
+  "is_cached": false
+}
