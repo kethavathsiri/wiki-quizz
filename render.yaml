@@ -11,7 +11,8 @@ services:
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL
-        value: "__REPLACE_WITH_DATABASE_URL__"
+        # Replace the placeholder below with your existing Postgres connection string
+        value: "__SET_EXISTING_DATABASE_URL_HERE__"
       - key: JWT_SECRET_KEY
         value: "__REPLACE_WITH_JWT_SECRET_KEY__"
       - key: ACCESS_TOKEN_EXPIRE_MINUTES

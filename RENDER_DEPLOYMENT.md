@@ -18,7 +18,9 @@ This repository includes a `render.yaml` manifest that configures a Render Web S
   - Create a new Web Service → Connect to the GitHub repo `kethavathsiri/wiki-quizz`.
   - Render will detect the `render.yaml` manifest; confirm the service settings.
   - In the service "Environment" settings, add the environment variables listed above as Secrets.
-  - (Optional) Create a Render Managed PostgreSQL database and copy its DATABASE_URL into the service secrets.
+  - If using the managed DB in `render.yaml`, Render will create a managed Postgres named `wiki-quizz-db`. After the database is provisioned:
+    - In the Render dashboard, open the managed database, copy its Database URL.
+    - Add that Database URL value as the `DATABASE_URL` environment variable for the `wiki-quizz-backend` service (or update the `render.yaml` value and re-deploy).
   - Trigger a deploy (Render will auto-deploy on push because `autoDeploy: true`).
 
 4) Notes & troubleshooting
