@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: wiki-quizz-backend
+    env: docker
+    plan: starter
+    branch: main
+    repo: https://github.com/kethavathsiri/wiki-quizz
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    autoDeploy: true
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        value: "__REPLACE_WITH_DATABASE_URL__"
+      - key: JWT_SECRET_KEY
+        value: "__REPLACE_WITH_JWT_SECRET_KEY__"
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "60"
+      - key: GEMINI_API_KEY
+        value: "__REPLACE_WITH_GEMINI_API_KEY__"
+    buildCommand: ""
+    startCommand: ""
